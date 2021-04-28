@@ -1,0 +1,112 @@
+﻿
+
+body {
+    background-image: linear-gradient(130deg,#3498db,#8e44ad);
+}
+
+
+.main_block {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 570px;
+    background-image: linear-gradient(130deg,#3498db,#8e44ad);
+}
+.left_block {
+    float: left;
+    background-color: red;
+    margin-left: 5px;
+    width: 250px;
+    height: 560px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width:5px;
+}
+.right_block {
+    background-image: linear-gradient(130deg,#3498db,#8e44ad);
+    margin-top: 6px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 260px;
+    height: 560px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.sidebar {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 550px;
+}
+.left_block .sidebar ul{
+    list-style-type:none;
+}
+.left_block .sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+.left_block .sidebar ul li a{
+    color:#bdb8d7;
+    display:block;
+}
+.left_block .sidebar ul li a .fas{
+    width:18px;
+}
+.left_block .sidebar ul  :hover{
+    background-color:#594f8d;
+    border-right-style:solid;
+    border-width:2px;
+}
+
+    .left_block .sidebar ul li:hover a {
+        color: #fff;
+    }
+.left_block .sidebar .social_media {
+   position:absolute;
+   bottom:30px;
+   left:9.5%;
+   transform:translateX(-50%);
+   display:flex;
+}
+
+    .left_block .sidebar .social_media a {
+      display:block;
+      width:40px;
+      text-align:center;
+      height:40px;
+      color:#bdb8d7;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+    }
+        .left_block .sidebar .social_media a:hover {
+            background-color: #594f8d;
+            border-right-style: solid;
+            border-width: 2px;
+            text-decoration-color:royalblue;
+        }
+.Right-Block {
+    float: left;
+    background-color: rgba(0,0,0,0.05);
+    height: 490px;
+    width: 40%;
+    
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.Left-Block {
+    width: 610px;
+    background-color: rgba(0,0,0,0.05);
+    margin-left: 5px;
+    height: 490px;
+    margin-left: 450px;
+    
+}
+.Left-Block p{
+    text-align:center;
+    width:100%;
+    
+
+}
